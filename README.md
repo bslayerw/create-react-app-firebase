@@ -8,6 +8,8 @@
 git clone https://github.com/bslayerw/create-react-app-firebase.git
 cd create-react-app-firebase
 npm install
+mv fire.config.example.js fire.config.js
+# windows `rename fire.config.exmaple.js fire.config.js`
 # or yarn install
 ```
 
@@ -19,7 +21,8 @@ Read the documenation on [firebase](https://firebase.google.com/docs/web/setup).
 
 ### Build for deploy and serve locally
 ```sh
-npm run build:serve
+npm run start
+# or `yarn start`
 ```
 
 ### build for deploy and deploy to firebase 
