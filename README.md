@@ -1,4 +1,4 @@
-# hueapifirebase [![NPM version](https://badge.fury.io/js/hueapifirebase.svg)](https://npmjs.org/package/hueapifirebase) [![Build Status](https://travis-ci.org/bslayerw/hueapifirebase.svg?branch=master)](https://travis-ci.org/bslayerw/hueapifirebase)
+# create-react-app-firebase [![Build Status](https://travis-ci.org/bslayerw/hueapifirebase.svg?branch=master)](https://travis-ci.org/bslayerw/hueapifirebase)[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 > create-react-app with firebase boilerplate
 
@@ -13,6 +13,12 @@ mv fire.config.example.js fire.config.js
 # or yarn install
 ```
 
+Run in development mode.
+```sh
+npm start
+# or `yarn start`
+```
+
 ## Usage
 Read the documentation on [create-react-app](https://github.com/facebookincubator/create-react-app)
 Read the documenation on [firebase](https://firebase.google.com/docs/web/setup). You will need to update `fire.config.js` with your firebase configuration. Once that's done this should get your going with an inital react app and a firebase setup. There's a simple example in App.js that creates messages and adds them to your firebase database.
@@ -21,7 +27,7 @@ Read the documenation on [firebase](https://firebase.google.com/docs/web/setup).
 
 ### Build for deploy and serve locally
 ```sh
-npm run start
+npm run build:serve
 # or `yarn start`
 ```
 
